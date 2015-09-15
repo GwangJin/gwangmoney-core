@@ -143,8 +143,8 @@
         <translation>&amp;Opsies</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>FairPay</source>
+        <translation>FairPay</translation>
     </message>
     <message>
         <source>Wallet</source>

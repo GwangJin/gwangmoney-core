@@ -166,7 +166,7 @@ genesis hash: 8559e1ba71b94a20527ed93a79c0f716d30be96492bce83d5ae5bb22e0fd98b7
         assert(hashGenesisBlock == uint256("0x8559e1ba71b94a20527ed93a79c0f716d30be96492bce83d5ae5bb22e0fd98b7"));
         assert(genesis.hashMerkleRoot == uint256("0x243dcdda51bd4b87606c7fc4adc839a6ada93ea36a752555ed2359b5fbcdfb06"));
 
-        vSeeds.push_back(CDNSSeedData("litecointools.com", "dnsseed-gwangjin2.actus.kr"));
+        vSeeds.push_back(CDNSSeedData("fairpaytools.com", "dnsseed-gwangjin2.actus.kr"));
         
         base58Prefixes[PUBKEY_ADDRESS] = list_of(48);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(5);
@@ -185,7 +185,7 @@ genesis hash: 8559e1ba71b94a20527ed93a79c0f716d30be96492bce83d5ae5bb22e0fd98b7
         fSkipProofOfWorkCheck = false;
         fTestnetToBeDeprecatedFieldRPC = false;
 
-        // Litecoin: Mainnet v2 enforced as of block 710k
+        // FairPay: Mainnet v2 enforced as of block 710k
         nEnforceV2AfterHeight = 710000;
     }
 
@@ -225,7 +225,7 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("litecointools.com", "testnet-seed.litecointools.com"));
+        vSeeds.push_back(CDNSSeedData("fairpaytools.com", "testnet-seed.fairpaytools.com"));
         vSeeds.push_back(CDNSSeedData("xurious.com", "testnet-seed.ltc.xurious.com"));
         vSeeds.push_back(CDNSSeedData("wemine-testnet.com", "dnsseed.wemine-testnet.com"));
 
@@ -245,7 +245,7 @@ public:
         fMineBlocksOnDemand = false;
         fTestnetToBeDeprecatedFieldRPC = true;
 
-        // Litecoin: Testnet v2 enforced as of block 400k
+        // FairPay: Testnet v2 enforced as of block 400k
         nEnforceV2AfterHeight = 400000;
     }
     const Checkpoints::CCheckpointData& Checkpoints() const 
@@ -293,7 +293,7 @@ public:
         fMineBlocksOnDemand = true;
         fTestnetToBeDeprecatedFieldRPC = false;
 
-        // Litecoin: v2 enforced using Bitcoin's supermajority rule
+        // FairPay: v2 enforced using Bitcoin's supermajority rule
         nEnforceV2AfterHeight = -1;
     }
     const Checkpoints::CCheckpointData& Checkpoints() const 
@@ -321,7 +321,7 @@ public:
         fAllowMinDifficultyBlocks = false;
         fMineBlocksOnDemand = true;
 
-        // Litecoin: v2 enforced using Bitcoin's supermajority rule
+        // FairPay: v2 enforced using Bitcoin's supermajority rule
         nEnforceV2AfterHeight = -1;
     }
 
